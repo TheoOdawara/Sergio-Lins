@@ -66,7 +66,7 @@ export default function Header() {
                   ) : (
                     <Link
                       href={item.href}
-                      className="text-sm font-semibold uppercase tracking-wider text-white transition-colors hover:text-gold"
+                      className="whitespace-nowrap text-sm font-semibold uppercase tracking-wider text-white transition-colors hover:text-gold"
                     >
                       {item.label}
                     </Link>
@@ -96,9 +96,10 @@ export default function Header() {
                   href="https://wa.me/5521973907869"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-gold px-6 py-2 text-sm font-semibold uppercase tracking-wider text-bg-black transition-all hover:bg-gold-light hover:shadow-gold-glow"
+                  className="cta-animate group relative flex items-center justify-center overflow-hidden bg-gold px-7 py-3 text-center text-sm font-bold uppercase tracking-wider text-bg-black transition-all hover:scale-105 hover:bg-gold-light hover:shadow-2xl hover:shadow-gold/50"
                 >
-                  Agendar Consulta
+                  <span className="relative z-10">Agendar Consulta</span>
+                  <div className="absolute inset-0 -z-0 bg-gradient-to-r from-transparent via-white/30 to-transparent translate-x-[-200%] group-hover:translate-x-[200%] transition-transform duration-700" />
                 </a>
               </li>
             </ul>
@@ -165,9 +166,10 @@ export default function Header() {
                   href="https://wa.me/5521973907869"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block bg-gold px-6 py-3 text-center text-sm font-semibold uppercase tracking-wider text-bg-black transition-all hover:bg-gold-light"
+                  className="cta-animate group relative block overflow-hidden bg-gold px-6 py-4 text-center text-sm font-bold uppercase tracking-wider text-bg-black transition-all hover:bg-gold-light hover:shadow-2xl hover:shadow-gold/50"
                 >
-                  Agendar Consulta
+                  <span className="relative z-10">Agendar Consulta</span>
+                  <div className="absolute inset-0 -z-0 bg-gradient-to-r from-transparent via-white/30 to-transparent translate-x-[-200%] group-hover:translate-x-[200%] transition-transform duration-700" />
                 </a>
               </li>
             </ul>

@@ -63,15 +63,32 @@ export default function HeroSection({
               </p>
             )}
 
-            <a
+            <motion.a
               href={ctaLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-gold px-8 py-4 font-semibold text-bg-black transition-all hover:bg-gold-light hover:shadow-gold-glow focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+              whileHover={{ scale: 1.05, y: -2 }}
+              whileTap={{ scale: 0.98 }}
+              animate={{
+                boxShadow: [
+                  "0 0 0 0 rgba(212, 175, 55, 0)",
+                  "0 0 0 8px rgba(212, 175, 55, 0.1)",
+                  "0 0 0 0 rgba(212, 175, 55, 0)"
+                ]
+              }}
+              transition={{
+                boxShadow: {
+                  duration: 2,
+                  repeat: Infinity,
+                  ease: "easeInOut"
+                }
+              }}
+              className="cta-animate group relative inline-flex items-center gap-2 overflow-hidden bg-gold px-8 py-4 font-semibold text-bg-black transition-all hover:bg-gold-light hover:shadow-2xl hover:shadow-gold/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
             >
-              {ctaText}
-              <ArrowRight className="h-5 w-5" />
-            </a>
+              <span className="relative z-10">{ctaText}</span>
+              <ArrowRight className="relative z-10 h-5 w-5 transition-transform group-hover:translate-x-1" />
+              <div className="absolute inset-0 -z-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-200%] group-hover:translate-x-[200%] transition-transform duration-1000" />
+            </motion.a>
           </motion.div>
 
           {/* Imagem */}
