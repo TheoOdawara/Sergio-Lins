@@ -9,7 +9,6 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = [
-    { label: "Página Inicial", href: "/" },
     { label: "Sobre", href: "/sobre" },
     { 
       label: "Histeroscopia", 
@@ -57,13 +56,21 @@ export default function Header() {
           <nav className="hidden lg:block" aria-label="Navegação principal">
             <ul className="flex items-center gap-8">
               {menuItems.map((item) => (
-                <li key={item.href} className="group relative">
-                  <Link
-                    href={item.href}
-                    className="text-sm font-semibold uppercase tracking-wider text-white transition-colors hover:text-gold"
-                  >
-                    {item.label}
-                  </Link>
+                <li key={item.href || item.label} className="group relative">
+                  {item.submenu ? (
+                    <button
+                      className="text-sm font-semibold uppercase tracking-wider text-white transition-colors hover:text-gold"
+                    >
+                      {item.label}
+                    </button>
+                  ) : (
+                    <Link
+                      href={item.href}
+                      className="text-sm font-semibold uppercase tracking-wider text-white transition-colors hover:text-gold"
+                    >
+                      {item.label}
+                    </Link>
+                  )}
                   
                   {/* Submenu (se existir) */}
                   {item.submenu && (
@@ -118,30 +125,36 @@ export default function Header() {
           <nav id="mobile-menu" className="border-t border-gold/20 py-4 lg:hidden" aria-label="Navegação móvel">
             <ul className="space-y-4">
               {menuItems.map((item) => (
-                <li key={item.href}>
-                  <Link
-                    href={item.href}
-                    onClick={() => setIsMenuOpen(false)}
-                    className="block text-sm font-semibold uppercase tracking-wider text-white transition-colors hover:text-gold"
-                  >
-                    {item.label}
-                  </Link>
+                <li key={item.href || item.label}>
+                  {!item.submenu && (
+                    <Link
+                      href={item.href}
+                      onClick={() => setIsMenuOpen(false)}
+                      className="block text-sm font-semibold uppercase tracking-wider text-white transition-colors hover:text-gold"
+                    >
+                      {item.label}
+                    </Link>
+                  )}
                   
-                  {/* Mobile Submenu */}
                   {item.submenu && (
-                    <ul className="mt-2 ml-4 space-y-2 border-l-2 border-gold/20 pl-4">
-                      {item.submenu.map((subitem) => (
-                        <li key={subitem.href}>
-                          <Link
-                            href={subitem.href}
-                            onClick={() => setIsMenuOpen(false)}
-                            className="block text-sm text-white/70 transition-colors hover:text-gold"
-                          >
-                            {subitem.label}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
+                    <div>
+                      <span className="block text-sm font-semibold uppercase tracking-wider text-white">
+                        {item.label}
+                      </span>
+                      <ul className="mt-2 ml-4 space-y-2 border-l-2 border-gold/20 pl-4">
+                        {item.submenu.map((subitem) => (
+                          <li key={subitem.href}>
+                            <Link
+                              href={subitem.href}
+                              onClick={() => setIsMenuOpen(false)}
+                              className="block text-sm text-white/70 transition-colors hover:text-gold"
+                            >
+                              {subitem.label}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   )}
                 </li>
               ))}

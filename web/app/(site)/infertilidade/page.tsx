@@ -13,7 +13,7 @@ export default function InfertilidadePage() {
     {
       title: "Mulheres com mais de 35 anos",
       description: "Após 6 meses de tentativas sem êxito",
-      icon: "Calendar",
+      icon: "CalendarDays",
     },
     {
       title: "Histórico de Abortos",

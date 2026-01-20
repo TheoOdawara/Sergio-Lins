@@ -9,6 +9,18 @@ import {
   Award,
   Users,
   Stethoscope,
+  CalendarDays,
+  Activity,
+  AlertCircle,
+  Target,
+  Circle,
+  Square,
+  Hexagon,
+  Zap,
+  GitBranch,
+  AlertTriangle,
+  User,
+  HelpCircle,
   type LucideIcon 
 } from "lucide-react";
 
@@ -21,6 +33,18 @@ const iconMap: Record<string, LucideIcon> = {
   Award,
   Users,
   Stethoscope,
+  CalendarDays,
+  Activity,
+  AlertCircle,
+  Target,
+  Circle,
+  Square,
+  Hexagon,
+  Zap,
+  GitBranch,
+  AlertTriangle,
+  User,
+  HelpCircle,
 };
 
 interface CardItem {
