@@ -174,7 +174,7 @@ export default function ClinicaPage() {
               {/* Mapa do Google Maps */}
               <div className="overflow-hidden border-2 border-gold/20 shadow-2xl">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.4982371826644!2d-43.55461!3d-22.89963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd98f5d5a5555%3A0x5555555555555555!2sAv.%20Maria%20Teresa%2C%20260%20-%20Campo%20Grande%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2023050-160!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.190266485594!2d-43.56862502401566!3d-22.906351979255522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be399ce6e4dd1%3A0x590fca6b9dd603d7!2sClnica%20SV%20Lins!5e0!3m2!1spt-BR!2sbr!4v1768948884616!5m2!1spt-BR!2sbr"
                   width="100%"
                   height="400"
                   style={{ border: 0 }}
