@@ -8,21 +8,22 @@
 - [x] Configuração ESLint
 
 ## Fase 2: Página Inicial 🔄 (Em andamento)
-- [ ] Layout base (Header + Footer)
-- [ ] Seção Hero com CTA principal
-- [ ] Seção Diferenciais (4 cards)
+- [x] Layout base (Header + Footer)
+- [x] Seção Hero com CTA principal
+- [x] Seção Diferenciais (4 cards)
 - [ ] Seção Sobre o Médico
-- [ ] Seção Especialidades
+- [x] Seção Especialidades (CardGrid)
 - [ ] Seção Localização (Mapa)
 - [ ] Floating WhatsApp Button
 
-## Fase 3: Páginas de Serviço
-- [ ] Histeroscopia
-  - [ ] Histeroscopia Diagnóstica
+## Fase 3: Páginas de Serviço 🔄 (Em andamento)
+- [x] Histeroscopia
+  - [x] Histeroscopia Diagnóstica
   - [ ] Histeroscopia Cirúrgica Ambulatorial
 - [ ] Infertilidade
 - [ ] Cirurgia Ginecológica
 - [ ] Pré-Natal
+- [x] Página Sobre
 
 ## Fase 4: Otimizações
 - [ ] SEO (meta tags, sitemap, robots.txt)
@@ -38,4 +39,4 @@
 
 ---
 
-**Status atual:** Fase 2 — Desenvolvendo página inicial
+**Status atual:** Fases 2 e 3 — Página inicial e páginas de serviço em desenvolvimento

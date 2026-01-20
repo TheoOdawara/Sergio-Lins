@@ -2,32 +2,36 @@
 
 ## Tarefas Imediatas (Agora)
 
-1. **Criar componentes base**
-   - Header com navegação
-   - Footer com contatos
-   - Button (primário e secundário)
-   - Section (wrapper padrão)
+1. **Completar páginas de Histeroscopia** ✅
+   - [x] Histeroscopia Diagnóstica
+   - [ ] Histeroscopia Cirúrgica Ambulatorial
 
-2. **Desenvolver Hero Section**
-   - Imagem de fundo com overlay
-   - Título impactante
-   - CTA "Agendar Consulta"
-   - Animações de entrada (Framer Motion)
+2. **Desenvolver páginas de serviços restantes**
+   - Infertilidade
+   - Cirurgia Ginecológica
+   - Pré-Natal
 
-3. **Implementar seção Diferenciais**
-   - Grid 2x2 responsivo
-   - Ícones Lucide
-   - Micro-interações hover
+3. **Adicionar Seção Sobre o Médico na Home**
+   - Biografia do Dr. Sergio Lins
+   - Foto profissional
+   - Credenciais e formação
 
-4. **Adicionar Floating WhatsApp**
+4. **Implementar Seção Localização**
+   - Mapa Google Maps embarcado
+   - Endereço completo
+   - Horários de atendimento
+
+5. **Adicionar Floating WhatsApp**
    - Botão fixo inferior direito
    - Link direto para WhatsApp Business
+   - Animação de entrada
 
-5. **Testes de Acessibilidade**
+6. **Testes de Acessibilidade**
    - Navegação por teclado
-   - Contraste de cores
+   - Contraste de cores (WCAG AA)
    - Screen reader friendly
+   - Alt text em todas as imagens
 
 ---
 
-**Prioridade:** Items 1-2 são bloqueantes para as demais seções
+**Prioridade:** Completar páginas de serviços antes de otimizações
