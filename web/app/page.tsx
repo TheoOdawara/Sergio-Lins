@@ -46,7 +46,7 @@ export default function HomePage() {
                 </a>
                 
                 <a
-                  href="#sobre"
+                  href="/sobre"
                   className="inline-flex items-center gap-2 border-2 border-gold px-8 py-4 font-semibold text-gold transition-all hover:bg-gold-light hover:text-bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
                 >
                   Conheça o Dr. Sérgio
