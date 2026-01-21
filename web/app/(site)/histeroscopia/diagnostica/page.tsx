@@ -44,7 +44,7 @@ export default function HisteroscopiaDiagnosticaPage() {
     },
     {
       title: "Procedimento Rápido",
-      description: "Uma câmera fina e flexível é introduzida delicadamente através do colo do útero. O exame dura cerca de 5 a 15 minutos.",
+      description: "Uma câmera fina e flexível é introduzida delicadamente através do colo do útero. O exame dura cerca de 3 a 5 minutos.",
     },
     {
       title: "Visualização em Tempo Real",
@@ -52,14 +52,14 @@ export default function HisteroscopiaDiagnosticaPage() {
     },
     {
       title: "Retorno Imediato",
-      description: "Após o exame, você pode retomar suas atividades normais. Os resultados são discutidos logo em seguida.",
+      description: "Após o exame, você pode retomar suas atividades normais.",
     },
   ];
 
   const vantagens = [
     {
       title: "Rápido",
-      description: "Procedimento de 5 a 15 minutos",
+      description: "Procedimento de 3 a 5 minutos",
       icon: "Clock",
     },
     {

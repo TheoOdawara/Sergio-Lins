@@ -179,7 +179,7 @@ export default function SobrePage() {
           >
             <div className="relative z-10 mx-auto max-w-3xl text-center">
               <h2 className="mb-6 font-serif text-3xl font-bold sm:text-4xl">
-                Pronto para cuidar da sua saúde?
+                Pronta para cuidar da sua saúde?
               </h2>
               
               <p className="mb-8 text-lg leading-relaxed text-white/80">

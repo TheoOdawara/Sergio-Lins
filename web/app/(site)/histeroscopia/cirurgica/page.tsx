@@ -48,11 +48,7 @@ export default function HisteroscopiaCirurgicaPage() {
     },
     {
       title: "Recuperação Rápida",
-      description: "O procedimento dura entre 15 a 45 minutos. A recuperação é rápida, com desconforto mínimo e retorno gradual às atividades.",
-    },
-    {
-      title: "Acompanhamento",
-      description: "Consultas de retorno para avaliar a recuperação e, se necessário, realizar controle histeroscópico para confirmar o sucesso do tratamento.",
+      description: "O procedimento dura entre 3 a 5 minutos. A recuperação é rápida, com desconforto mínimo e retorno gradual às atividades.",
     },
   ];
 
@@ -88,7 +84,7 @@ export default function HisteroscopiaCirurgicaPage() {
           "A histeroscopia cirúrgica ambulatorial é um procedimento minimamente invasivo que permite tratar diversas alterações intrauterinas sem necessidade de internação hospitalar.",
           "Com instrumentos especializados, é possível remover pólipos, miomas submucosos, aderências e outras lesões, proporcionando resultados eficazes com recuperação rápida.",
         ]}
-        highlight="Procedimento realizado no consultório com sedação consciente."
+        highlight="Procedimento realizado no consultório."
         ctaText="Agendar Consulta"
         ctaLink="https://wa.me/5521973907869"
         imageSrc="/image_hist_cir.png"

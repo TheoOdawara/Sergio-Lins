@@ -68,11 +68,6 @@ export default function PreNatalPage() {
       icon: "Heart",
     },
     {
-      title: "Tecnologia Moderna",
-      description: "Equipamentos de ultrassonografia avançados",
-      icon: "Stethoscope",
-    },
-    {
       title: "Disponibilidade",
       description: "Suporte durante toda a gestação",
       icon: "Clock",
@@ -114,7 +109,7 @@ export default function PreNatalPage() {
         titleHighlight="Nossos"
         title="Diferenciais"
         items={diferenciais}
-        columns={4}
+        columns={3}
         bgDark
       />
 

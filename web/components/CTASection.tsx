@@ -1,10 +1,11 @@
 "use client";
 
+import { type ReactNode } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
 interface CTASectionProps {
-  title: string;
+  title: ReactNode;
   description: string;
   ctaText: string;
   ctaLink: string;
@@ -27,7 +28,7 @@ export default function CTASection({
           className="relative overflow-hidden border-4 border-gold/30 bg-gradient-to-br from-bg-dark to-bg-black p-12 shadow-2xl shadow-gold/20 sm:p-16"
         >
           <div className="relative z-10 mx-auto max-w-3xl text-center">
-            <h2 className="mb-6 font-serif text-3xl font-bold sm:text-4xl">
+            <h2 className="mb-6 font-serif text-3xl font-bold text-balance break-words sm:text-4xl">
               {title}
             </h2>
             

@@ -129,7 +129,11 @@ export default function InfertilidadePage() {
       />
 
       <CTASection
-        title="Comece sua Jornada Rumo à Maternidade/Paternidade"
+        title={
+          <>
+            Comece sua Jornada Rumo à Maternidade/<wbr />Paternidade
+          </>
+        }
         description="A infertilidade tem tratamento. Com uma investigação detalhada e abordagem personalizada, podemos traçar o melhor caminho para realizar o sonho de ter um filho."
         ctaText="Agendar Consulta pelo WhatsApp"
         ctaLink="https://wa.me/5521973907869"
