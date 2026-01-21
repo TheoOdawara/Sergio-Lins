@@ -93,6 +93,7 @@ export default function CirurgiaGinecologicaPage() {
         ctaLink="https://wa.me/5521973907869"
         imageSrc="/logo_sem_frame.png"
         imageAlt="Cirurgia Ginecológica - Procedimentos especializados"
+        imageScale={100}
       />
 
       <CardGridSection

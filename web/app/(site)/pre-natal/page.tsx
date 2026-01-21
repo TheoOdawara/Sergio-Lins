@@ -93,6 +93,7 @@ export default function PreNatalPage() {
         ctaLink="https://wa.me/5521973907869"
         imageSrc="/image_prenatal.png"
         imageAlt="Pré-Natal - Acompanhamento gestacional completo"
+        imageScale={100}
       />
 
       <CardGridSection

@@ -103,6 +103,7 @@ export default function InfertilidadePage() {
         ctaLink="https://wa.me/5521973907869"
         imageSrc="/infertilidade.png"
         imageAlt="Casal em momento de esperança - Tratamento de Infertilidade"
+        imageScale={100}
       />
 
       <CardGridSection

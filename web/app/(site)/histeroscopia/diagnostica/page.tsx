@@ -93,6 +93,7 @@ export default function HisteroscopiaDiagnosticaPage() {
         ctaLink="https://wa.me/5521973907869"
         imageSrc="/image_hist_diag.png"
         imageAlt="Imagem de Histeroscopia Diagnóstica - Visualização do endométrio"
+        imageScale={100}
       />
 
       <CardGridSection

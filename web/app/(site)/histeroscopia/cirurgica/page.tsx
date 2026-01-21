@@ -93,6 +93,7 @@ export default function HisteroscopiaCirurgicaPage() {
         ctaLink="https://wa.me/5521973907869"
         imageSrc="/image_hist_cir.png"
         imageAlt="Imagem de Histeroscopia Cirúrgica - Procedimento minimamente invasivo"
+        imageScale={100}
       />
 
       <CardGridSection

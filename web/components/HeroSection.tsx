@@ -15,6 +15,7 @@ interface HeroSectionProps {
   secondaryCtaLink?: string;
   imageSrc: string;
   imageAlt: string;
+  imageScale?: number;
 }
 
 export default function HeroSection({
@@ -28,6 +29,7 @@ export default function HeroSection({
   secondaryCtaLink,
   imageSrc,
   imageAlt,
+  imageScale = 150,
 }: HeroSectionProps) {
   return (
     <section className="relative py-24">
@@ -120,7 +122,8 @@ export default function HeroSection({
                 src={imageSrc}
                 alt={imageAlt}
                 fill
-                className="object-cover scale-150"
+                className="object-cover"
+                style={{ transform: `scale(${imageScale / 100})` }}
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-gold/5 to-transparent" />
