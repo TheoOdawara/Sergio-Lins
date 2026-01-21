@@ -43,12 +43,6 @@ Landing page premium com redirecionamento para o site principal, para o consult�
 2) `npm install`
 3) `npm run dev` (http://localhost:3000)
 
-## Próximas Entregas
-- Completar páginas de serviços restantes (Infertilidade, Cirurgia Ginecológica, Pré-Natal).
-- Seção Sobre o Médico na home, incluindo foto e credenciais.
-- Seção Localização com mapa e horários.
-- Botão flutuante de WhatsApp com animação de entrada.
-
 ---
 
 Projeto desenvolvido por Theo Odawara com foco em performance, acessibilidade e conversão.
